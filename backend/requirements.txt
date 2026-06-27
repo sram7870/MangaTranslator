@@ -1,0 +1,22 @@
+fastapi[standard]==0.137.*
+uvicorn[standard]==0.34.*
+python-multipart==0.0.*
+sqlalchemy==2.0.*
+greenlet==3.*
+aiosqlite==0.21.*
+pydantic==2.*
+pydantic-settings==2.*
+Pillow==11.*
+opencv-python-headless==4.10.*
+numpy==1.*
+httpx==0.28.*
+python-dotenv==1.0.*
+requests==2.31.*
+pytesseract==0.3.13
+PyMuPDF==1.26.*
+
+# Optional AI quality upgrades. These are imported lazily so the app can still
+# run on CPU-only or lightweight dev machines without them installed.
+# Install when you want manga-specific model detection and LaMa cleanup:
+# ultralytics
+# iopaint
