@@ -1,10 +1,24 @@
-# .gitignore
-.env
-.env.local
-
-.venv/
+# Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+*.sqlite
+*.db
 
-.dist
-.node_modules
+# Node
+node_modules/
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# Backend storage
+backend/storage/
+backend/models/
+
+# Logs
+*.log
